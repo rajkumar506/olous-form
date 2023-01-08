@@ -1,0 +1,149 @@
+.Container {
+  width: 84%;
+  margin: auto;
+}
+select {
+  width: 50%;
+  height: 44px;
+  border-radius: 8px;
+  font-size: 24px;
+  background: #fdfdfd;
+  appearance: none;
+  background-image: url("./DropdownArrow.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 32px;
+  padding-left: 16px;
+}
+textarea {
+  width: 50%;
+  min-height: 82px;
+  border-radius: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.country-input {
+  width: 24%;
+  height: 40px;
+  font-size: 24px;
+  border-radius: 12px;
+  margin: 0px 12px 0px 0px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+div > div {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+.currency-input {
+  width: 112px;
+  height: 38px;
+  border-radius: 8px;
+  font-size: 24px;
+}
+.values-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 30%;
+}
+.currency-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 150px;
+}
+.currency-value-container {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+button {
+  height: 48px;
+  width: 140px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 24px;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+  padding-right: 112px;
+}
+footer {
+  height: 60px;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #747f89;
+}
+.icons-grand-parent-container {
+  display: flex;
+  gap: 152px;
+  font-size: 16px;
+  align-items: center;
+}
+.support-container {
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  align-items: center;
+}
+.icons-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .contact-details > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .country-input {
+    width: 100%;
+    margin: 0px 12px 10px 0px;
+  }
+  textarea {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+  .currency-value-container {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 10%;
+  }
+  .icons-grand-parent-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .support-container {
+    flex-direction: column;
+  }
+  .icons-container {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .vehicle-icon-image{
+    width:100%
+  }
+  .button-div{
+    padding-right: 0px;
+  }
+}
